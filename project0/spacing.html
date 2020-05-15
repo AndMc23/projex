@@ -1,0 +1,37 @@
+div is a section or division of the web page:
+margin is the pace outside of a div. the space between the div and orther sections:
+paddung is the space between the writing and the margin of the div.  how much the writing i padded from its margins:
+span is assigned to a specific class of data or a section in the middle of text:
+# means id (id are unique) and . means span, class is note unique:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+        <style>
+              #top {
+                font-size: 38px;
+              }
+              #middle {
+                font-size: 26px
+              }
+              #bottom {
+                font-size: 28px
+              }
+              .name {
+                font-weight: bold;
+              }
+        </style>
+    </head>
+    <body>
+        <div id="top">
+          this is my <span class="name">top</span> web page.
+        </div>
+        <div id="middle">
+          this is my <span class="name">middle</span> web page
+        </div>
+        <div id="bottoom">
+          this is my <span class="name">middle</span> web page
+        </div>
+    </body>
+</html>
